@@ -39,7 +39,7 @@ const Hero = () => {
             <div>
                 <div className="flex flex-col items-center justify-center gap-y-3 font-light capitalize">
                     <motion.div className="flex items-center justify-center" style={{ rotateY: mouseMove ? rotateY : 0, rotateX: mouseMove ? rotateX : 0, transition: '0.1' }}>
-                        <Image className="h-auto w-[150px]" src={'/hero-img.PNG'} alt='Person Image' width={300} height={300} priority={true} />
+                        <Image className="h-auto w-[150px]" src={'/hero2-img.png'} alt='Person Image' width={300} height={300} priority={true} />
                         <motion.span className="absolute text-3xl font-semibold text-white" initial={{ scale: 0 }}
                             animate={{ opacity: buttonHover ? 0 : 1, scale: buttonHover ? 2 : 0, y: buttonHover ? -40 : 0 }} transition={{ opacity: { delay: 0.4 } }} >Hi</motion.span>
                     </motion.div>
