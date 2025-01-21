@@ -102,3 +102,37 @@ export const skillsData = [
     },
     
 ]
+//end of Skills session
+
+//Projects session
+export const projectsData = [
+    {
+        name: 'Project 1',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, metus in ult',
+        url: 'https://github.com',
+        tech: ['React', 'Tailwind CSS'],
+    },
+    {
+        name: 'Project 2',
+        description: 'haadguiewffwe wwwe ',
+        url: 'https://github.com',
+        tech: ['React', 'Tailwind CSS', 'Node.js'],
+    },
+    {
+        name: 'Project 3',
+        description: 'haadguiewffwe wwwe ',
+        url: 'https://github.com',
+        tech: ['React', 'Tailwind CSS', 'Vue'],
+    },
+]
+
+export const projectsButton = [
+    'All',
+    'React',
+    'Tailwind CSS',
+    'Node.js',
+    'Vue',
+    'HTML',
+    'Next.js',
+    'JavaScript',
+]
