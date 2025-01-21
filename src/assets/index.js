@@ -40,3 +40,65 @@ export const experienceData = [
         experience: ['experience', 'experience'],
     },
 ]
+//end of Experience session
+
+//Skills session
+export const skillsData = [
+    {
+        name: 'CSS',
+        icon: '/skills/css.png',
+    },
+    {
+        name: 'HTML',
+        icon: '/skills/html.png',
+    },
+    {
+        name: 'JavaScript',
+        icon: '/skills/js.png',
+    },
+    {
+        name: 'React',
+        icon: '/skills/react.png',
+    },
+    {
+        name: 'Next.js',
+        icon: '/skills/nextjs.png',
+    },
+    {
+        name: 'Node.js',
+        icon: '/skills/nodejs.png',
+    },
+    {
+        name: 'Figma',
+        icon: '/skills/figma.png',
+    },
+    {
+        name: 'Framer',
+        icon: '/skills/framer.png',
+    },
+    {
+        name: 'GitHub',
+        icon: '/skills/github.png',
+    },
+    {
+        name: 'Tailwind CSS',
+        icon: '/skills/tailwind.png',
+    },
+    {
+        name: 'Three.js',
+        icon: '/skills/threejs.png',
+    },
+    {
+        name: 'TypeScript',
+        icon: '/skills/ts.png',
+    },
+    {
+        name: 'Vite',
+        icon: '/skills/vite.png',
+    },
+    {
+        name: 'VS Code',
+        icon: '/skills/vscode.png',
+    },
+    
+]
