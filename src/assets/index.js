@@ -109,20 +109,20 @@ export const projectsData = [
     {
         name: 'Project 1',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, metus in ult',
-        url: 'https://github.com',
+        url: '/projects/guideme.png',
         tech: ['React', 'Tailwind CSS'],
     },
     {
         name: 'Project 2',
         description: 'haadguiewffwe wwwe ',
-        url: 'https://github.com',
+        url: '/projects/naturegermany.png',
         tech: ['React', 'Tailwind CSS', 'Node.js'],
     },
     {
         name: 'Project 3',
         description: 'haadguiewffwe wwwe ',
-        url: 'https://github.com',
-        tech: ['React', 'Tailwind CSS', 'Vue'],
+        url: '/projects/tkarquitetura.png',
+        tech: ['Tailwind CSS', 'Vue'],
     },
 ]
 
