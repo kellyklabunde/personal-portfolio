@@ -18,7 +18,7 @@ const Experience = () => {
     const scrollY = useSpring(scrollYProgress, { stiffness: 200, damping: 20 });
 
     return (
-        <div className="relative py-20 px-96">
+        <div id="experience" className="relative py-20 px-96">
             <Heading text={'Experience and Education'} />
             <Image src={'/education.png'} alt={'Experience Image'} width={400} height={400} className="absolute -top-4 right-96 opacity-70 lg:hidden" />
             <div ref={containerRef} className="w-full h-full flex flex-col items-center justify-center gap-y-10 lg:gap-y-20 py-10">

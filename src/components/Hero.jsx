@@ -35,7 +35,7 @@ const Hero = () => {
 
 
     return (
-        <div className="h-screen grid place-items-center" onMouseMove={handleMouseMove} onMouseEnter={handleMouseEnter}>
+        <div id="home" className="h-screen grid place-items-center" onMouseMove={handleMouseMove} onMouseEnter={handleMouseEnter}>
             <div>
                 <div className="flex flex-col items-center justify-center gap-y-3 font-light capitalize">
                     <motion.div className="flex items-center justify-center" style={{ rotateY: mouseMove ? rotateY : 0, rotateX: mouseMove ? rotateX : 0, transition: '0.1' }}>

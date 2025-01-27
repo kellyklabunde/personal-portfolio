@@ -136,3 +136,50 @@ export const projectsButton = [
     'Next.js',
     'JavaScript',
 ]
+//end of Projects session
+
+//Navbar session
+import CopyrightLineIcon from 'remixicon-react/CopyrightLineIcon';
+export const copyRightIcon = <CopyrightLineIcon />;
+
+import Home2LineIcon from 'remixicon-react/Home2LineIcon';
+import UserLineIcon from 'remixicon-react/UserLineIcon';
+import RoadMapLineIcon from 'remixicon-react/RoadMapLineIcon';
+import CodeBoxLineIcon from 'remixicon-react/CodeBoxLineIcon';
+import ComputerLineIcon from 'remixicon-react/ComputerLineIcon';
+import MailLineIcon from 'remixicon-react/MailLineIcon';
+
+export const navbarData = [
+    {
+        id: 'home',
+        name: 'Home',
+        icon: <Home2LineIcon />,
+    },
+    {
+        id: 'about',
+        name: 'About',
+        icon: <UserLineIcon />,
+    },
+    {
+        id: 'experience',
+        name: 'MyRoad',
+        icon: <RoadMapLineIcon />,
+    },
+    {
+        id: 'skills',
+        name: 'Skills',
+        icon: <CodeBoxLineIcon />,
+    },
+    {
+        id: 'projects',
+        name: 'Projects',
+        icon: <ComputerLineIcon />,
+    },
+    {
+        id: 'contact',
+        name: 'Contact',
+        icon: <MailLineIcon />,
+    },
+];
+
+//end of Navbar session
