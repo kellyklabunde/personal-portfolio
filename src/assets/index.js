@@ -181,5 +181,12 @@ export const navbarData = [
         icon: <MailLineIcon />,
     },
 ];
-
 //end of Navbar session
+
+//Toggle 
+
+import MoonClearFillIcon from 'remixicon-react/MoonClearFillIcon';
+import SunFillIcon from 'remixicon-react/SunFillIcon';
+
+export const moonIcon = <MoonClearFillIcon />;
+export const sunIcon = <SunFillIcon />;

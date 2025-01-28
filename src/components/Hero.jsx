@@ -43,8 +43,8 @@ const Hero = () => {
                         <motion.span className="absolute text-3xl font-semibold text-white" initial={{ scale: 0 }}
                             animate={{ opacity: buttonHover ? 0 : 1, scale: buttonHover ? 2 : 0, y: buttonHover ? -40 : 0 }} transition={{ opacity: { delay: 0.4 } }} >Hi</motion.span>
                     </motion.div>
-                    <h1 className="text-center text-3xl font-bold tracking-wider text-gray-500 sm:text-2xl" >I'm Kelly Klabunde</h1>
-                    <p className="text-lg tracking-wider text-gray-700">Frontend Developer</p>
+                    <h1 className="text-center text-3xl font-bold tracking-wider text-gray-500 sm:text-2xl dark:text-white">I'm Kelly Klabunde</h1>
+                    <p className="text-lg tracking-wider text-gray-700 dark:text-gray-200 transition-colors">Frontend Developer</p>
                 </div>
             </div>
             <div className="mt-8 flex justify-center gap-x-10 text-3xl text-yellow-600 sm:text-2xl">
