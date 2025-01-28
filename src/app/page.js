@@ -4,6 +4,7 @@ import About from '../components/About';
 import Experience from '../components/Experience';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
+import Contact from '@/components/Contact';
 import Navbar from '@/components/Navbar';
 import { useEffect, useRef, useState } from 'react';
 
@@ -38,6 +39,7 @@ export default function Home() {
         <Experience />
         <Skills />
         <Projects />
+        <Contact />
       </div>
     </>
   );
