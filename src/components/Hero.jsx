@@ -21,7 +21,7 @@ const Hero = () => {
     const handleMouseEnter = () => {
         setWindowOffset({ innerWidth: window.innerWidth, innerHeight: window.innerHeight });
         setMouseMove(true);
-        console.log(innerWidth, innerHeight);
+        // console.log(innerWidth, innerHeight);
     }
 
     const { innerWidth, innerHeight } = windowOffset;
