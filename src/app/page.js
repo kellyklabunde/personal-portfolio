@@ -7,6 +7,7 @@ import Projects from '../components/Projects';
 import Contact from '@/components/Contact';
 import Navbar from '@/components/Navbar';
 import Toggle from '@/components/sub/Toggle';
+import Load from '@/components/sub/Load';
 import { useEffect, useRef, useState } from 'react';
 
 export default function Home() {
@@ -33,6 +34,7 @@ export default function Home() {
 
   return (
     <>
+    <Load />
     <Toggle>
       <Navbar id={id} />
       <div ref={compsRef} className='w-min'>
