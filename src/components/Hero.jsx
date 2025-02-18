@@ -32,7 +32,7 @@ const Hero = () => {
     const rotateX = useTransform(ySpring, [0, innerHeight], [10, -50])
 
     return (
-        <div id="home" className="h-screen grid place-items-center" onMouseMove={handleMouseMove} onMouseEnter={handleMouseEnter}>
+        <div id="home" className="h-screen flex flex-col justify-center" onMouseMove={handleMouseMove} onMouseEnter={handleMouseEnter}>
             <div>
                 <motion.div initial={{ opacity: 0, y: -100 }} animate={{ opacity: 1, y: 0 }} transition={{delay: .5 }} className="flex flex-col items-center justify-center gap-y-3 font-light capitalize">
                     <motion.div className="flex items-center justify-center" style={{ rotateY: mouseMove ? rotateY : 0, rotateX: mouseMove ? rotateX : 0, transition: '0.1' }}>

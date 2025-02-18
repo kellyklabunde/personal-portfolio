@@ -16,28 +16,28 @@ import { Tilt_Neon } from 'next/font/google';
 export const downloadIcon = <DownloadLineIcon />;
 export const arrowLeftIcon = <ArrowLeftLineIcon />;
 
-export const aboutText = 'I am a software engineer with a passion for building web applications. I have experience in front-end and back-end development, as well as in the design and implementation of relational databases. I am a fast learner and a team player, and I am always looking for new challenges.';
-//end of About session
+export const aboutText =
+ 'Hi, I am Kelly! I am a software engineer, marathon runner, coffee lover and recently snowboarder that writes frontend development for a living. My passion lies on creating user-friendly and appealing web applications. Proficient in JavaScript, TypeScript, React, Vue and responsive design. I am a fast learner and a team player, and I am always looking for new challenges.';
 
 //Experience session
 export const experienceData = [
     {
         year: '1',
-        title: 'Foundation and Basics',
-        education: 'education', 
-        experience: ['experiencegtrge', 'tttttttttttttttttttttttttttt'],
+        title: 'Full Stack Web Development Bootcamp  ',
+        education: 'SPICED Academy - Berlin, Germany', 
+        experience: ['HTML', 'CSS', 'JavaScript', 'React', 'Vue', 'Node.js', 'Express', 'PostgreSQL', 'Git', 'Heroku', 'AWS'],
     },
     {
         year: '2',
-        title: 'Foundation and Basicfsfewfre',
-        education: 'education', 
-        experience: ['experience', 'experience'],
+        title: 'Junior Frontend Developer',
+        education: 'It Solutions LTDA - Blumenau, Brazil (Remote)', 
+        experience: ['HTML', 'CSS', 'JavaScript', 'React', 'Git', 'Jira'],
     },
     {
         year: '3',
-        title: 'Foundation and Basicsbbbbbbbbbbb',
-        education: 'education', 
-        experience: ['experience', 'experience'],
+        title: 'Frontend Developer',
+        education: 'REHUB FORGE GmbH - Cologne, Germany (Remote)', 
+        experience: ['JavaScript', 'TypeScript', 'HTML', 'CSS', 'React', 'Git', 'Jira', 'Figma', 'Pytest'],
     },
 ]
 //end of Experience session
