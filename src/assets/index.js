@@ -3,8 +3,14 @@ import LinkedinLineIcon from 'remixicon-react/LinkedinLineIcon';
 
 //Hero session
 export const heroIcons = [
-    <GithubLineIcon />,
-    <LinkedinLineIcon />,
+    {
+        icon: <GithubLineIcon />,
+        link: 'https://github.com/kellyklabunde'
+    },
+    {
+        icon: <LinkedinLineIcon />, 
+        link: 'https://www.linkedin.com/in/kelly-klabunde/'
+    },
 ];
 //end of Hero session
 

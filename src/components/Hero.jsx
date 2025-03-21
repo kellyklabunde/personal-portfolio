@@ -34,6 +34,7 @@ const Hero = () => {
     return (
         <div id="home" className="h-screen flex flex-col justify-center" onMouseMove={handleMouseMove} onMouseEnter={handleMouseEnter}>
             <div>
+            <h1 className="text-center text-3xl font-bold tracking-wider text-gray-500 pb-4 sm:text-2xl dark:text-white">hi there,</h1>
                 <motion.div initial={{ opacity: 0, y: -100 }} animate={{ opacity: 1, y: 0 }} transition={{delay: .5 }} className="flex flex-col items-center justify-center gap-y-3 font-light capitalize">
                     <motion.div className="flex items-center justify-center" style={{ rotateY: mouseMove ? rotateY : 0, rotateX: mouseMove ? rotateX : 0, transition: '0.1' }}>
                         <Image className="h-auto w-[150px]" src={'/hero2-img.png'} alt='Person Image' width={300} height={300} priority={true} />
@@ -45,15 +46,15 @@ const Hero = () => {
                 </motion.div>
             </div>
             <motion.div initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} transition={{delay: .5}} className="mt-8 flex justify-center gap-x-10 text-3xl text-yellow-600 sm:text-2xl">
-                {heroIcons.map((icon, i) => (
-                    <a key={i} href="#" className="rounded-lg hover:bg-red-400 hover:text-white tranition-colors">
-                        {icon}
+                {heroIcons.map((item, i) => (
+                    <a key={i} href={item.link} target="_blank" className="rounded-lg hover:bg-red-400 hover:text-white tranition-colors">
+                        {item.icon}
                     </a>
                 ))}
             </motion.div>
             <motion.a
                 initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{delay: .7}}
-                href="#"
+                href="/#contact"
                 className="mx-auto mt-7 block w-max rounded-lg bg-red-400 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-500 transition-colors"
                 onMouseEnter={() => setButtonHover(true)}
                 onMouseLeave={() => setButtonHover(false)}
