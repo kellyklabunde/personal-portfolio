@@ -11,7 +11,7 @@ const Contact = () => {
                 <motion.div initial={{opacity: 0, y: 150}} whileInView={{opacity: 1, y: 0}} transition={{duration: .4}} viewport={{once: true}}>
                     <Image src={'/contact.png'} alt="Contact Image" width={400} height={400} className="w-[400px] opacity-80" />
                 </motion.div>
-                <motion.form target="_blank" action="https://formsubmit.co/contact.kellyklabunde@gmail.com" method="POST" className="w-[600px] lg:w-[400px] sm:w-full flex flex-col gap-y-3" initial={{opacity: 0, x: 150}} whileInView={{opacity: 1, x: 0}} transition={{duration: .4}} viewport={{once: true}}>
+                <motion.form className="w-[600px] lg:w-[400px] sm:w-full flex flex-col gap-y-3" initial={{opacity: 0, x: 150}} whileInView={{opacity: 1, x: 0}} transition={{duration: .4}} viewport={{once: true}}>
                     <div className="w-full flex lg:flex-col gap-x-3 lg:gap-y-3">
                         <input type="text" placeholder="Your Name" name="name" className="w-full border border-yellow-500 rounded-md bg-zinc-100 px-4 py-2 text-sm tracking-wider text-gray-500 outline-none" />
                         <input type="email" placeholder="Your Email" name="email" className="w-full border border-yellow-500 rounded-md bg-zinc-100 px-4 py-2 text-sm tracking-wider text-gray-500 outline-none"  />
