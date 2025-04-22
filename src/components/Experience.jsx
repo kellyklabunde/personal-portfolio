@@ -37,7 +37,6 @@ const Experience = () => {
                         >
                             <h1 className="text-xl sm:text-lg font-light text-gray-700 dark:text-white">{data.title}</h1>
                             <p className="text-gray-800 dark:text-gray-100">
-                                <span className="block font-light">Education:</span>
                                 <span className="block pl-2 font-extralight">{data.education}</span>
                             </p>
                             <div className="text-gray-800 dark:text-gray-200 transition-colors">
@@ -51,12 +50,12 @@ const Experience = () => {
                             <span className={`absolute top-20 text-red-300 -translate-y-1/2 lg:hidden ${i % 2 === 0 ? 'left-full rotate-180' : 'right-full'
                                 }`}>{arrowLeftIcon}</span>
                         </motion.div>
-                        <div className={`w-14 absolute top-20 border border-gray-300 rounded-full aspect-square grid place-items-center text-red-400 font-light -translate-y-1/2 z-10 bg-white ${i % 2 === 0
+                        <div className={`w-16 absolute top-20 border border-gray-300 rounded-full aspect-square grid place-items-center text-red-400 font-light -translate-y-1/2 z-10 bg-white ${i % 2 === 0
                                 ? 'left-full -tranlate-x-1/2 lg:left-1/2'
                                 : 'right-full tranlate-x-1/2 lg:right-1/2'
                             }`}
                         >
-                            {date - experienceData.length + i + 1}
+                            {data.year}
                         </div>
                     </div>
                 ))}

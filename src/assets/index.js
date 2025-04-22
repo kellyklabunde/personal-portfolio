@@ -28,22 +28,30 @@ export const aboutText =
 //Experience session
 export const experienceData = [
     {
-        year: '1',
+        year: '2021',
         title: 'Full Stack Web Development Bootcamp  ',
         education: 'SPICED Academy - Berlin, Germany', 
-        experience: ['HTML', 'CSS', 'JavaScript', 'React', 'Vue', 'Node.js', 'Express', 'PostgreSQL', 'Git', 'Heroku', 'AWS'],
+        experience: ['12-week full-time course covering the following topics:', 'Deep understanding of HTML, CSS and animations', 'JavaScript loops, callback functions and asynchronous coding. Clean and efficient JS code.',
+            'React functions, hooks, custom hooks and nested components to create structured and efficient web applications.',
+            'Use of Next.js to create highly scalable web applications.',
+            'Build robust backend using API routes and PostgreSQL database.',
+        ],
     },
     {
-        year: '2',
+        year: '2021 - 2022',
         title: 'Junior Frontend Developer',
         education: 'It Solutions LTDA - Blumenau, Brazil (Remote)', 
-        experience: ['HTML', 'CSS', 'JavaScript', 'React', 'Git', 'Jira'],
+        experience: ['Development of components for web applications using HTML, CSS, JavaScript and React.', 
+            'Implementation of a responsive design for user-friendly application. Use of React custom Hooks and reusable components for efficient and structured applications.'
+        ],
     },
     {
-        year: '3',
+        year: '2022 - 2025',
         title: 'Frontend Developer',
         education: 'REHUB FORGE GmbH - Cologne, Germany (Remote)', 
-        experience: ['JavaScript', 'TypeScript', 'HTML', 'CSS', 'React', 'Git', 'Jira', 'Figma', 'Pytest'],
+        experience: ['Development and implementation of a Web App consistently translating designs from Figma into responsive interfaces. Responsible for developing the Component Library for the project, ensuring reusability and maintainability of components.', 
+            'Actively contributing in an Agile environment, working in sprints and Scrum methodology to ensure timely delivery of high-quality software features.'
+        ],
     },
 ]
 //end of Experience session
