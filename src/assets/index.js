@@ -23,7 +23,7 @@ export const downloadIcon = <DownloadLineIcon />;
 export const arrowLeftIcon = <ArrowLeftLineIcon />;
 
 export const aboutText =
- 'Hi, I am Kelly! I am a software engineer, marathon runner, coffee lover and recently snowboarder that writes frontend development for a living. My passion lies on creating user-friendly and appealing web applications. Proficient in JavaScript, TypeScript, React, Vue and responsive design. I am a fast learner and a team player, and I am always looking for new challenges.';
+ 'Hi, I am Kelly! I am a software engineer, marathon runner, coffee lover and very recently also a snowboarder that writes frontend development for a living. My passion lies on creating user-friendly and appealing web applications. Proficient in JavaScript, TypeScript, React, Vue and responsive design. I am a fast learner and a team player, and I am always looking for new challenges.';
 
 //Experience session
 export const experienceData = [
