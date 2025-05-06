@@ -6,8 +6,6 @@ import { motion, useScroll, useSpring } from "framer-motion";
 import { useRef } from "react";
 
 const Experience = () => {
-    const date = new Date().getFullYear();
-
     const containerRef = useRef(null);
 
     const { scrollYProgress } = useScroll({
@@ -20,7 +18,7 @@ const Experience = () => {
     return (
         <div id="experience" className="relative py-20">
             <Heading text={'Experience and Education'} />
-            <Image src={'/education.png'} alt={'Experience Image'} width={400} height={400} className="absolute -top-4 right-0 opacity-70 lg:hidden" />
+            <Image src={'/education.png'} alt={'Experience Image'} width={400} height={400} className="absolute -top-4 -right-20 opacity-70 lg:hidden" />
             <div ref={containerRef} className="relative w-full h-full flex flex-col items-center justify-center gap-y-10 lg:gap-y-20 py-10">
                 {experienceData.map((data, i) => (
                     <div key={`id-${i}`} className={`w-[600px] xl:w-[480px] sm:w-full px-12 sm:px-0 relative ${i % 2 === 0
@@ -47,12 +45,12 @@ const Experience = () => {
                                     ))}
                                 </ul>
                             </div>
-                            <span className={`absolute top-20 text-red-300 -translate-y-1/2 lg:hidden ${i % 2 === 0 ? 'left-full rotate-180' : 'right-full'
-                                }`}>{arrowLeftIcon}</span>
+                            <span className={`absolute top-20 text-red-300 -translate-y-1/2 lg:hidden ${i % 2 === 0 ? 'left-full rotate-180' : 'right-full'}`}>{arrowLeftIcon}</span>
                         </motion.div>
-                        <div className={`w-16 absolute top-20 border border-gray-300 rounded-full aspect-square grid place-items-center text-red-400 font-light -translate-y-1/2 z-10 bg-white ${i % 2 === 0
-                                ? 'left-full -tranlate-x-1/2 lg:left-1/2'
-                                : 'right-full tranlate-x-1/2 lg:right-1/2'
+                        <div className={`w-14 absolute top-20 border border border-gray-300 rounded-full aspect-square grid place-items-center text-red-400 font-light -translate-y-1/2 z-10 bg-white ${
+                                i % 2 === 0
+                                ? 'left-full -translate-x-1/2 lg:left-1/2'
+                                : 'right-full translate-x-1/2 lg:right-1/2'
                             }`}
                         >
                             {data.year}

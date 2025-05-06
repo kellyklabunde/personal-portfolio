@@ -38,7 +38,7 @@ export const experienceData = [
         ],
     },
     {
-        year: '2021 - 2022',
+        year: '2021',
         title: 'Junior Frontend Developer',
         education: 'It Solutions LTDA - Blumenau, Brazil (Remote)', 
         experience: ['Development of components for web applications using HTML, CSS, JavaScript and React.', 
@@ -46,7 +46,7 @@ export const experienceData = [
         ],
     },
     {
-        year: '2022 - 2025',
+        year: '2022',
         title: 'Frontend Developer',
         education: 'REHUB FORGE GmbH - Cologne, Germany (Remote)', 
         experience: ['Development and implementation of a Web App consistently translating designs from Figma into responsive interfaces. Responsible for developing the Component Library for the project, ensuring reusability and maintainability of components.', 
