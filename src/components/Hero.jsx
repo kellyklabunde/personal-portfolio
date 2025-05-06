@@ -37,7 +37,7 @@ const Hero = () => {
             <h1 className="text-center text-3xl font-bold tracking-wider text-gray-500 pb-4 sm:text-2xl dark:text-white">hi there,</h1>
                 <motion.div initial={{ opacity: 0, y: -100 }} animate={{ opacity: 1, y: 0 }} transition={{delay: .5 }} className="flex flex-col items-center justify-center gap-y-3 font-light capitalize">
                     <motion.div className="flex items-center justify-center" style={{ rotateY: mouseMove ? rotateY : 0, rotateX: mouseMove ? rotateX : 0, transition: '0.1' }}>
-                        <Image className="h-auto w-[150px]" src={'/hero2-img.png'} alt='Person Image' width={300} height={300} priority={true} />
+                        <Image className="h-auto w-[150px]" src={'/hero2-img-nobg.png'} alt='Person Image' width={300} height={300} priority={true} />
                         <motion.span className="absolute text-3xl font-semibold text-white" initial={{ scale: 0 }}
                             animate={{ opacity: buttonHover ? 0 : 1, scale: buttonHover ? 2 : 0, y: buttonHover ? -40 : 0 }} transition={{ opacity: { delay: .4 } }} >Hi</motion.span>
                     </motion.div>
