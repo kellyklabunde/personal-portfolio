@@ -17,7 +17,6 @@ export const heroIcons = [
 //About session
 import DownloadLineIcon from 'remixicon-react/DownloadLineIcon';
 import ArrowLeftLineIcon from 'remixicon-react/ArrowLeftLineIcon';
-import { Tilt_Neon } from 'next/font/google';
 
 export const downloadIcon = <DownloadLineIcon />;
 export const arrowLeftIcon = <ArrowLeftLineIcon />;
@@ -121,33 +120,33 @@ export const skillsData = [
 //Projects session
 export const projectsData = [
     {
-        name: 'Project 1',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, metus in ult',
+        name: 'guide.me',
+        description: "A social network using Google Maps API for friends to share and see each other's travel tips, leave comments, make friendship requests.",
         url: '/projects/guideme.png',
-        tech: ['React', 'Tailwind CSS'],
+        tech: ['React', 'Node.js', 'PostgreSQL', 'CSS', 'HTML', 'JavaScript'],
     },
     {
-        name: 'Project 2',
-        description: 'haadguiewffwe wwwe ',
+        name: 'Nature Germany',
+        description: 'An image board to upload images of the nature from Germany.Viewers can leave comments on the photos.',
         url: '/projects/naturegermany.png',
-        tech: ['React', 'Tailwind CSS', 'Node.js'],
+        tech: ['JavaScript', 'Vue.js', 'Node.js', 'CSS', 'HTML', 'PostgreSQL'],
     },
     {
-        name: 'Project 3',
-        description: 'haadguiewffwe wwwe ',
+        name: 'TK Arquitetura',
+        description: 'A responsive Portfolio for an Architect Office that renders a carrousel of photos according to the project selected and other website components like Menu, Contact, main Page.',
         url: '/projects/tkarquitetura.png',
-        tech: ['Tailwind CSS', 'Vue'],
+        tech: ['React', 'Node.js', 'CSS', 'HTML', 'JavaScript'],
     },
 ]
 
 export const projectsButton = [
     'All',
     'React',
-    'Tailwind CSS',
+    'Vue.js',
     'Node.js',
-    'Vue',
+    'PostgreSQL', 
+    'CSS',
     'HTML',
-    'Next.js',
     'JavaScript',
 ]
 //end of Projects session
