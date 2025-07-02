@@ -30,12 +30,10 @@ const Projects = () => {
                         key={i}
                         initial={{opacity: i === 0 ? 1 : .5, scale: i === 0 ? 1.2 : 1}}
                         ref={(el) => (buttonsRef.current.push(el))}
-                        onClick={() =>
-                            {
+                        onClick={() =>{
                             setTech(stack)
                             setIndex(i)
                         }}
-
                         className="border border-yellow-500 rounded-xl px-2 py-1 text-sm font-light tracking-wider text-gray-400">
                             {stack}
                     </motion.button>
